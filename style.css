@@ -1,0 +1,21 @@
+body {
+	background: url("back.jpg") scroll;
+}
+
+header {
+	text-align: center;
+}
+
+header p strong {
+	font-weight: normal;
+}
+
+h1, h2, h3 {
+	font-size: 185%;
+}
+
+#saber {
+	position: absolute;
+	bottom: 5%;
+	right: 5%;
+}
