@@ -2,20 +2,15 @@ body {
 	background-image: url(back.jpg);
 }
 
-section {
-  width: 50%;
-	margin: auto;
-  text-align: justify;
-  overflow: auto;
+#top {
+	display: flex;
 }
 
-footer {
-  width: 50%;
-  margin: auto;
-  text-align: justify;
+#nav {
+	list-style-type: none;
 }
 
 strong, em {
 	font-weight: normal;
 	font-style: normal;
-}
+}	
