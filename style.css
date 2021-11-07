@@ -1,16 +1,46 @@
+/* General */
+
 body {
-	background-image: url(back.jpg);
-}
-
-#top {
-	display: flex;
-}
-
-#nav {
-	list-style-type: none;
+	background-image: url(images/fond_jaune.png);
+	width: 50%;
+	margin: auto;
 }
 
 strong, em {
 	font-weight: normal;
 	font-style: normal;
 }	
+
+/* Header */
+
+#top {
+	display: flex;
+}
+
+header {
+  background: url('images/separateur.png') repeat-x bottom;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 10%;
+}
+
+nav a {
+	font-size: 130%;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav a:hover {
+  color: #760001;
+  border-bottom: 1px solid #760001;
+}
