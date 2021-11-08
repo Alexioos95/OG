@@ -1,8 +1,6 @@
 /* General */
 
 body {
-	background-image: url(images/back.png);
-	width: 60%;
 	margin: auto;
 }
 
@@ -14,7 +12,7 @@ strong, em {
 /* Header */
 
 header {
-  background: url(images/backsepa.png) repeat-x bottom;
+	background: url("images/backheader.png");
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -22,10 +20,12 @@ header {
 
 #titlepart {
 	display: flex;
-	flex-direction: center;
+	position: relative;
+	left: -5%;
 }
 
 #truetitle {
+	color: white;
 	margin-left: 5%;
 }
 
@@ -41,30 +41,46 @@ nav ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  white-space: nowrap;
 }
 
 nav li {
-  margin-right: 10%;
+  margin-right: 15%;
 }
 
 nav a {
 	font-size: 130%;
-	color: black;
+	color: white;
 	font-weight: bold;
 	text-decoration: none;
 }
 
 nav a:hover {
-  color: #760001;
-  border-bottom: 1px solid #760001;
+  color: #DEA41F;
+  border-bottom: 1px solid #DEA41F;
 }
 
-/* Section */
+/* Footer */
 
-section {
-	display: flex;
+footer {
+	background: url("images/backheader.png");
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-article {
-	
+footer p {
+	color: gray;
+}
+
+footer a {
+	color: #C4B4B4;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+footer a:hover {
+  color: #DEA41F;
+  border-bottom: 1px solid #DEA41F;
 }
