@@ -2,6 +2,7 @@
 
 body {
 	margin: auto;
+	overflow: hidden;
 }
 
 strong, em {
@@ -33,10 +34,6 @@ header {
 	margin-top: 1.5%;
 }
 
-li a {
-	margin-right: 50%;
-}
-
 nav ul {
   list-style-type: none;
   display: flex;
@@ -61,17 +58,36 @@ nav a:hover {
   border-bottom: 1px solid #DEA41F;
 }
 
+/* Section */
+
+section {
+	width: 65%;
+  margin: auto;
+  font-size: 105%;
+}
+
+article {
+	background: url("images/back.png");
+	margin-top: 0.675%;
+	margin-bottom: 0.675%;
+	padding-left: 1%;
+	border: 2px solid black;
+	border-radius: 15px;
+  background-color: rgba(180, 180, 180, 0.5);
+}
+
 /* Footer */
 
 footer {
 	background: url("images/backheader.png");
-  display: flex;
-  justify-content: space-around;
   align-items: center;
+  position: absolute;
+  width: 100%; 
 }
 
 footer p {
 	color: gray;
+	text-align: center;
 }
 
 footer a {
