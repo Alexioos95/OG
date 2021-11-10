@@ -2,7 +2,9 @@
 
 body {
 	margin: auto;
-	overflow: hidden;
+	min-height:100vh;
+	display:flex; 
+	flex-direction:column;
 }
 
 strong, em {
@@ -60,7 +62,7 @@ nav a:hover {
 
 /* Section */
 
-section {
+#articles {
 	width: 65%;
   margin: auto;
   font-size: 102%;
@@ -68,7 +70,7 @@ section {
 
 article {
 	background: url("images/back.png");
-	margin-top: 0.675%;
+	margin-top: 0.85%;
 	margin-bottom: 0.675%;
 	padding-left: 1%;
 	border: 2px solid black;
@@ -80,8 +82,9 @@ article {
 
 footer {
 	background: url("images/backheader.png");
-  align-items: center;
-  position: absolute;
+  position: relative;
+  display: flex;
+  justify-content: center;
   width: 100%; 
 }
 
