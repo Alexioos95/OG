@@ -143,3 +143,17 @@ footer a:hover {
 	display: block;
 	text-align: center;
 }
+
+#PPDC {
+	display: flex;
+	flex-direction: column;
+}
+
+.h3DC {
+	font-size: 115%;
+	text-decoration: underline;
+}
+
+#ShinichiIMG, #ConanIMG, #RanIMG, #KogoroIMG {
+	float: right;
+}
