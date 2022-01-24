@@ -144,9 +144,14 @@ footer a:hover {
 	margin-bottom: 1.8%	;
 }
 
-.vids {
+.vids, #BOIMG {
 	display: block;
 	text-align: center;
+}
+
+figcaption {
+	font-size: 85%;
+	font-style: italic;
 }
 
 #PPDC {
