@@ -84,6 +84,24 @@ h2, h3 {
 	text-decoration: underline;
 }
 
+.ppos, .pneg, .pmid {
+	background: none;
+	font-size: 300%;
+	font-weight: bold;
+}
+
+.ppos {
+	color: green;
+}
+
+.pneg {
+	color: red;
+}
+
+.pmid {
+	color: orange;
+}
+
 /* Footer */
 
 footer {
@@ -143,4 +161,9 @@ footer a:hover {
 
 #ShinichiIMG, #ConanIMG, #RanIMG, #KogoroIMG {
 	float: right;
+}
+
+#uniquement {
+	background: none;
+	font-style: italic;
 }
