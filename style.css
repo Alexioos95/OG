@@ -74,8 +74,13 @@ article {
   background-color: rgba(180, 180, 180, 0.5);
 }
 
-h2, h3 {
+.titres {
 	font-size: 130%;
+}
+
+.soustitres {
+	font-size: 110%;
+	text-decoration: underline;
 }
 
 .lex {
@@ -131,7 +136,7 @@ footer a:hover {
 /* N1 */
 
 #DCBody {
-	background: url("images/DCWP.jpg");
+	background: url("images/DC/DCWP.jpg");
  	width: 100%;
  	height: 100%;
  }
@@ -144,7 +149,7 @@ footer a:hover {
 	margin-bottom: 1.8%	;
 }
 
-.vids, #BOIMG {
+.fig {
 	display: block;
 	text-align: center;
 }
@@ -157,11 +162,6 @@ figcaption {
 #PPDC {
 	display: flex;
 	flex-direction: column;
-}
-
-.h3DC {
-	font-size: 115%;
-	text-decoration: underline;
 }
 
 #ShinichiIMG, #ConanIMG, #RanIMG, #KogoroIMG {
