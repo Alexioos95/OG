@@ -164,7 +164,7 @@ figcaption {
 	flex-direction: column;
 }
 
-#ShinichiIMG, #ConanIMG, #RanIMG, #KogoroIMG {
+.IMGfloatr {
 	float: right;
 }
 
