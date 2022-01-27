@@ -107,6 +107,54 @@ article {
 	color: orange;
 }
 
+.displaypic {
+	width: 90%;
+	display: block;
+	margin: auto;
+	margin-top: 1.8%;
+	margin-bottom: 1.8%	;
+}
+
+.fig {
+	display: block;
+	text-align: center;
+}
+
+figcaption {
+	font-size: 85%;
+	font-style: italic;
+}
+
+.PP {
+	display: flex;
+	flex-direction: column;
+}
+
+.IMGfloatr {
+	float: right;
+}
+
+/* Only N1 */
+
+#DCBody {
+	background: url("images/DC/DCWP.jpg");
+ 	width: 100%;
+ 	height: 100%;
+ }
+
+#uniquement {
+	background: none;
+	font-style: italic;
+}
+
+/* Only N2 */
+
+#SGBody {
+	background: url("images/SG/SGWP.jpg");
+ 	width: 100%;
+ 	height: 100%;
+ }
+
 /* Footer */
 
 footer {
@@ -131,44 +179,4 @@ footer a {
 footer a:hover {
   color: #DEA41F;
   border-bottom: 1px solid #DEA41F;
-}
-
-/* N1 */
-
-#DCBody {
-	background: url("images/DC/DCWP.jpg");
- 	width: 100%;
- 	height: 100%;
- }
-
-#DC {
-	width: 90%;
-	display: block;
-	margin: auto;
-	margin-top: 1.8%;
-	margin-bottom: 1.8%	;
-}
-
-.fig {
-	display: block;
-	text-align: center;
-}
-
-figcaption {
-	font-size: 85%;
-	font-style: italic;
-}
-
-#PPDC {
-	display: flex;
-	flex-direction: column;
-}
-
-.IMGfloatr {
-	float: right;
-}
-
-#uniquement {
-	background: none;
-	font-style: italic;
 }
