@@ -170,6 +170,12 @@ figcaption {
  	margin-bottom: 1%;
  }
 
+#Titor {
+	margin-top: -1.2%;
+	font-size: 80%;
+	font-style: italic;
+}
+
 /* Footer */
 
 footer {
