@@ -175,10 +175,12 @@ figcaption {
 	font-size: 80%;
 	font-style: italic;
 }
+
 /* Only N3 */
 
 #KNKBody {
-	background: url("images/KNK/KNKWP.jpg") fixed;
+	background: url("images/KNK/KNKWP.jpg") fixed no-repeat;
+	background-size: cover;
  	width: 100%;
  	height: 100%;
 }
