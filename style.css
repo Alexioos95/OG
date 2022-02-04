@@ -2,8 +2,7 @@
 
 body {
 	margin: auto;
-	min-height:100vh;
-	display:flex; 
+	display:flex;
 	flex-direction:column;
 }
 
@@ -18,8 +17,7 @@ header {
 
 .titlepart {
 	display: flex;
-	position: relative;
-	left: -5%;
+	margin-left: -7%;
 }
 
 .truetitle {
@@ -28,7 +26,7 @@ header {
 }
 
 .logo {
-	margin-top: 1.5%;
+	margin-top: 1.8%;
 }
 
 nav ul {
@@ -60,7 +58,6 @@ nav a:hover {
 .articles {
 	width: 65%;
   margin: auto;
-  font-size: 102%;
 }
 
 article, .displaypicdiv {
@@ -75,7 +72,7 @@ article, .displaypicdiv {
 }
 
 p {
-	font-size: 103%;
+	font-size: 104%;
 }
 
 .titres {
@@ -154,8 +151,6 @@ figcaption {
 #DCBody {
 	background: url("images/N1/DCWP.jpg") fixed no-repeat;
 	background-size: cover;
- 	width: 100%;
- 	height: 100%;
  }
 
 #uniquement {
@@ -168,8 +163,6 @@ figcaption {
 #SGBody {
 	background: url("images/N2/SGWP.jpg") fixed no-repeat;
 	background-size: cover;
- 	width: 100%;
- 	height: 100%;
  }
 
  #Daru {
@@ -187,18 +180,12 @@ figcaption {
 #KNKBody {
 	background: url("images/N3/KNKWP.jpg") fixed no-repeat;
 	background-size: cover;
- 	width: 100%;
- 	height: 100%;
 }
 
 /* Footer */
 
 footer {
 	background: url("images/backheader.png");
-  position: relative;
-  display: flex;
-  justify-content: center;
-  width: 100%; 
 }
 
 footer p {
