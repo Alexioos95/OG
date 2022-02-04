@@ -74,12 +74,16 @@ article, .displaypicdiv {
   background-color: rgba(180, 180, 180, 0.5);
 }
 
+p {
+	font-size: 103%;
+}
+
 .titres {
-	font-size: 130%;
+	font-size: 140%;
 }
 
 .soustitres {
-	font-size: 110%;
+	font-size: 115%;
 	text-decoration: underline;
 }
 
