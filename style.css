@@ -171,9 +171,14 @@ figcaption {
  }
 
 .smalltxt {
-	margin-top: -1.2%;
+	margin-top: -1.8%;
 	font-size: 80%;
 	font-style: italic;
+}
+
+.order {
+	background: none;
+	text-decoration: underline;
 }
 
 /* Only N3 */
@@ -183,7 +188,7 @@ figcaption {
 	background-size: cover;
 }
 
-#Note {
+#note {
 	font-weight: bold;
 	font-size: 150%;
 }
