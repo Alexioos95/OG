@@ -10,9 +10,9 @@ body {
 
 header {
 	background: url("images/backheader.png");
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .titlepart {
@@ -30,15 +30,15 @@ header {
 }
 
 nav ul {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  white-space: nowrap;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	white-space: nowrap;
 }
 
 nav li {
-  margin-right: 15%;
+	margin-right: 15%;
 }
 
 nav a {
@@ -49,15 +49,15 @@ nav a {
 }
 
 nav a:hover {
-  color: #DEA41F;
-  border-bottom: 1px solid #DEA41F;
+	color: #DEA41F;
+	border-bottom: 1px solid #DEA41F;
 }
 
 /* Section */
 
 .articles {
 	width: 65%;
-  margin: auto;
+	margin: auto;
 }
 
 article, .displaypicdiv {
@@ -119,7 +119,7 @@ figcaption {
 
 .IMGfloatrbas {
 	float: right;
- 	margin-bottom: 1%;
+	margin-bottom: 1%;
 }
 
 .ppos, .pneg, .pmid {
@@ -211,6 +211,6 @@ footer a {
 }
 
 footer a:hover {
-  color: #DEA41F;
-  border-bottom: 1px solid #DEA41F;
+	color: #DEA41F;
+	border-bottom: 1px solid #DEA41F;
 }
