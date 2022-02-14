@@ -151,6 +151,11 @@ figcaption {
 	margin-bottom: 1%;
 }
 
+h6 {
+	font-size: 105%;
+	margin-bottom: 0.5%;
+}
+
 /* Only N1 */
 
 #DCBody {
