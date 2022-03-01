@@ -2,8 +2,8 @@
 
 body {
 	margin: auto;
-	display:flex;
-	flex-direction:column;
+	display: flex;
+	flex-direction: column;
 }
 
 /* Header */
@@ -218,4 +218,36 @@ footer a {
 footer a:hover {
 	color: #DEA41F;
 	border-bottom: 1px solid #DEA41F;
+}
+
+/* Media-Query */
+
+@media screen and (max-width: 1024px) {
+	header {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.titlepart {
+		margin-left: 1%;
+	}
+
+	.truetitle {
+		margin-left: 2%;
+	}
+
+	nav ul {
+		justify-content: space-evenly;
+		width: 40%;
+		position: relative;
+		left: 18.5%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+}
+
+@media screen and (max-width: 320px) {
+	
 }
