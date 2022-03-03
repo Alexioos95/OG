@@ -282,6 +282,16 @@ footer a:hover {
 		display: none;
 	}
 
+	img {
+    max-width:100%;
+    height:auto;
+	}
+
+	iframe {
+    max-width:100%;
+    height:auto;
+	}
+	
 	.logo {
 		margin-top: 1.8%;
 		position: relative;
