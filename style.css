@@ -71,6 +71,15 @@ article, .displaypicdiv {
   background-color: rgba(180, 180, 180, 0.5);
 }
 
+.sommaire {
+	text-align: center;
+	background: url("images/summaryback.png");
+}
+
+.sommaireli {
+	list-style-type: none;
+	padding: 0;
+}
 p {
 	font-size: 104%;
 }
