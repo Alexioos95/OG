@@ -74,6 +74,7 @@ article, .displaypicdiv {
 .sommaire {
 	text-align: center;
 	background: url("images/summaryback.png");
+	background-position: 85%;
 }
 
 .sommaireli {
