@@ -1,18 +1,12 @@
 # Mini-Blog Alexis.
 
-## Table of contents
-
-- [Description](#description)
-- [Liens](#liens)
-- [Construit avec](#construit-avec)
-
 ### Description
 
 
 
 ### Liens
 
-- Site Live: [Netlify](https://grand-shortbread-897579.netlify.app/)
+- Site Live: [Netlify](https://glistening-wisp-cd7ba2.netlify.app/)
 - LinkedIn: [LinkedIn]([https://www.frontendmentor.io/solutions/nft-IFprjEhgDg](https://www.linkedin.com/in/alexispayen/))
 
 ### Construit avec :
