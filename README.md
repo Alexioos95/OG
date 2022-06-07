@@ -7,7 +7,7 @@
 ### Liens
 
 - Site Live: [Netlify](https://glistening-wisp-cd7ba2.netlify.app/)
-- LinkedIn: [LinkedIn]([https://www.frontendmentor.io/solutions/nft-IFprjEhgDg](https://www.linkedin.com/in/alexispayen/))
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alexispayen/)
 
 ### Construit avec :
 
