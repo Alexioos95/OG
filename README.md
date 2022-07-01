@@ -17,8 +17,9 @@ HTML, CSS.
 
 ### Idées d'amélioration :
 
+- Intégrer normalise.css
 - Revoir le code.
 - Utiliser plus de flexbox.
 - Utiliser FontAwesome.
 - Refaire les Media Queries.
-- Ajouter une partie Mangas.
+- Ajouter une section Mangas.
